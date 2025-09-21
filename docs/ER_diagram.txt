@@ -1,0 +1,14 @@
+ER Diagram for Canteen Management System
+
+Entities:
+- users (user_id, name, email, password, role, created_at)
+- menu (item_id, item_name, description, price, availability, image, created_at)
+- orders (order_id, user_id, order_date, total_amount, status)
+- order_items (order_item_id, order_id, item_id, quantity)
+
+Relationships:
+- orders.user_id → users.user_id (FK)
+- order_items.order_id → orders.order_id (FK)
+- order_items.item_id → menu.item_id (FK)
+
+[Visual diagram should be created in a drawing tool and saved as ER_diagram.png in /docs/]

@@ -1,0 +1,10 @@
+# PHP project .gitignore
+/vendor/
+/node_modules/
+.env
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+assets/uploads/

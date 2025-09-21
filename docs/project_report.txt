@@ -1,0 +1,31 @@
+College Canteen Management System
+==================================
+
+## Project Summary
+A web-based solution for managing college canteen operations, including menu, orders, and admin controls. Built for usability, security, and modern UI.
+
+## Features
+- Student/admin authentication
+- Menu browsing, cart, and order placement
+- AJAX actions for seamless UX
+- Admin dashboard, menu CRUD, order management
+- Responsive design
+- Placeholder images for menu items
+- Modern homepage
+
+## Tech Stack
+- PHP, MySQL, Bootstrap 5, HTML, CSS, JS
+
+## Testing
+- Verified all flows: login, register, menu, cart, orders, admin actions
+- AJAX and CRUD tested
+- Responsive on mobile/tablet/desktop
+
+## Screenshots
+- See `assets/screenshots/` for homepage, menu, order history, admin dashboard
+
+## ER Diagram
+- See `docs/ER_diagram.txt`
+
+## Submission
+- All code, documentation, and screenshots included
